@@ -16,3 +16,15 @@ nav .container .row {
 
 
 /* /nav bar */
+
+/* jumbotron */
+
+.profile_image {
+    height: 200px;
+}
+
+.jumbotron > [class*="col-sm-12"]:not(.profile_image){
+    height: 100px;
+}
+
+/* /jumbotron */
