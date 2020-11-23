@@ -23,8 +23,52 @@ nav .container .row {
     height: 200px;
 }
 
-.jumbotron > [class*="col-sm-12"]:not(.profile_image){
+.jumbotron > [class*="col-xs-12"]:not(.profile_image){
     height: 100px;
 }
 
 /* /jumbotron */
+
+
+/* 1sezione */
+
+.first_section_title {
+    height: 100px;
+}
+
+
+#first_section .container .row [class*="col-xs-12"]:not(.first_section_title) {
+    height: 300px;
+}
+
+#first_section .container .row >* {
+    margin-top: 30px;
+}
+
+/* /1sezione */
+
+/* 2sezione */
+
+.about {
+    height: 400px;
+    margin-top: 30px;
+}
+
+/* /2sezione */
+
+/* 3sezione */
+
+.contact_me {
+    height: 200px;
+}
+
+#third_section .container .row [class*=col-xs-12]:not(.contact_me){
+    height: 100px;
+}
+
+#third_section .container .row [class*=col-xs-12]:nth-child(5) {
+    height: 300px;
+}
+
+
+/* /3sezione */
