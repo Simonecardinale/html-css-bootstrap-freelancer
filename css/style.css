@@ -84,3 +84,33 @@ footer .container .row [class*="col-xs-12"]{
 }
 
 /* /footer */
+
+
+
+
+@media screen and (min-width:769px) and (max-width:992px){
+
+.container {
+    width: 80%;
+}
+
+#first_section .container .row [class*="col-sm-6"]:not(.first_section_title){
+    background-color: aquamarine;
+}
+
+/* footer */
+
+footer .container .row .col-xs-12:last-child {
+    margin-top: 0;
+}
+
+/* /footer */
+
+
+}
+
+@media screen and (min-width:1200px) {
+
+
+    
+}
