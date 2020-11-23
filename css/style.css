@@ -70,5 +70,17 @@ nav .container .row {
     height: 300px;
 }
 
-
 /* /3sezione */
+
+/* footer */
+
+footer {
+    background-color: rgb(68, 99, 158);
+}
+
+footer .container .row [class*="col-xs-12"]{
+    height: 100px;
+    margin-top: 30px;
+}
+
+/* /footer */
